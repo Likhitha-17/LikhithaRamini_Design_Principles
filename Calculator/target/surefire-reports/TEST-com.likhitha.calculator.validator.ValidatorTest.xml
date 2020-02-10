@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.likhitha.calculator.AppTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.likhitha.calculator.validator.ValidatorTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12+33"/>
@@ -63,5 +63,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.likhitha.calculator.AppTest" name="testApp" time="0.006"/>
+  <testcase classname="com.likhitha.calculator.validator.ValidatorTest" name="test[0]" time="0.003"/>
+  <testcase classname="com.likhitha.calculator.validator.ValidatorTest" name="test[1]" time="0.001"/>
+  <testcase classname="com.likhitha.calculator.validator.ValidatorTest" name="test[2]" time="0"/>
+  <testcase classname="com.likhitha.calculator.validator.ValidatorTest" name="test[3]" time="0.001"/>
+  <testcase classname="com.likhitha.calculator.validator.ValidatorTest" name="test[4]" time="0.001"/>
 </testsuite>
